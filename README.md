@@ -7,7 +7,7 @@ This repo exists so I could learn the GitHub pull request workflow with Claude.
 A tiny sandbox repo to practice:
 - cloning
 - branching
-- commiting changes
+- committing changes
 - opening a pull request
 - merging
 
