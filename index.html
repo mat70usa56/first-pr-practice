@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1>Crypto Dashboard</h1>
+    <button id="refresh-btn" aria-label="Refresh prices">&#x21bb;</button>
+  </header>
+
+  <main>
+    <p id="status" class="status"></p>
+    <ul id="coin-list" class="coin-list"></ul>
+  </main>
+
+  <footer class="app-footer">
+    <p>Prices via <a href="https://www.coingecko.com/" target="_blank" rel="noopener">CoinGecko</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
